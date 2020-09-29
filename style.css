@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: yellow;
+}
+
+h1, h2 {
+  font-family: 'Roboto', 'Pacifico';
+}
+
+img {
+  float: left;
+  margin-right: 100px;
+}
+
+.box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}
